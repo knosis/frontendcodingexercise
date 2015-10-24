@@ -7,3 +7,5 @@ For this exercise, you will be developing (from scratch) a JavaScript based syst
  - Allow for easy customization of the invitation.
 
 The invitation dialog itself should be DHTML based and use best practices for CSS and HTML. Your JavaScript should be clean, and use OO best practices. Please do not use any 3rd party libraries like jQuery, Angular, React, or others.
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")

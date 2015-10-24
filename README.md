@@ -15,6 +15,8 @@ Things to keep in mind:
  - Build for maintainability!
  - Comment your code
  - Tests? Why not!
- - If you feel like it, go above and beyond!
+ - If you feel like it, go above and beyond! This is an opportunity for you to show us what you can do.
+ 
+# Mockup
 
 ![Mockup](https://raw.githubusercontent.com/alexsaves/frontendcodingexercise/master/popup.png "Mockup")

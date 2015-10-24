@@ -20,3 +20,7 @@ Things to keep in mind:
 # Mockup
 
 ![Mockup](https://raw.githubusercontent.com/alexsaves/frontendcodingexercise/master/popup.png "Mockup")
+
+# Next Steps
+
+Begin by forking this library into your own github repo. Contribute your changes back to your repository. Email us at alexei.white@answers.com when you are done.

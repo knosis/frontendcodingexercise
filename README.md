@@ -8,4 +8,13 @@ For this exercise, you will be developing (from scratch) a JavaScript based syst
 
 The invitation dialog itself should be DHTML based and use best practices for CSS and HTML. Your JavaScript should be clean, and use OO best practices. Please do not use any 3rd party libraries like jQuery, Angular, React, or others.
 
+Things to keep in mind:
+
+ - Build tools: Why not use a build system to streamline your testing, minify and check your code? Any will do.
+ - SASS/LESS? I think so!
+ - Build for maintainability!
+ - Comment your code
+ - Tests? Why not!
+ - If you feel like it, go above and beyond!
+
 ![Mockup](https://raw.githubusercontent.com/alexsaves/frontendcodingexercise/master/popup.png "Mockup")

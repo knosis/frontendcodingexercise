@@ -1,0 +1,90 @@
+
+
+#modal-shadow {
+  width:100%;
+  height:100%;
+  opacity:.65;
+  top:0;
+  left:0;
+  display:block;
+  position:fixed;
+  background-color:#333333;
+  overflow:auto;
+}
+
+div#signUpBox {
+  position:absolute;
+  left:50%;
+  top:30%;
+  margin-left:-202px;
+  font-family:Arial,sans-serif;
+}
+
+form {
+  max-width:200px;
+  min-width:200px;
+  padding:10px 20px;
+  border:1px solid gray;
+  font-family:raleway;
+  background-color:#EEE;
+  box-shadow: 2px 5px 3px #444;
+}
+
+p {
+  margin-top:30px;
+}
+
+h2 {
+  background-color:#FEFFED;
+  padding:20px 35px;
+  margin:-10px -50px;
+  text-align:center;
+  border-radius:10px 10px 0 0;
+}
+
+#form label {
+  text-align: justify;
+  font-size: 14px;
+}
+
+
+input[type=text] {
+  width:82%;
+  padding: 8px;
+  margin-top:15px;
+  border:1px solid #ccc;
+  padding-left:20px;
+  font-size:16px;
+  font-family:raleway;
+}
+
+#email {
+  background-position:5px 7px;
+}
+
+#submit {
+  text-decoration:none;
+  width:25%;
+  text-align:center;
+  display:block;
+  background-color:#AAAAAA;
+  color:black;
+  border:1px solid #AAAAAA;
+  padding:5px 0;
+  font-size:16px;
+  cursor:pointer;
+  position: relative;
+  margin: 10px 0 0 140px;
+}
+
+
+button {
+  width:10%;
+  height:20px;
+  background-color:#e5e5e5;
+  color:black;
+  font-family:Arial,sans-serif;
+  font-size:16px;
+  cursor:pointer;
+  float: right;
+}

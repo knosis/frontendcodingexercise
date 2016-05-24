@@ -1,18 +1,18 @@
 
+// Display signup box after initial pause
 setTimeout(openSignUpBox, 3000);
 
-// Display signup box after initial pause
+// Count visits
+VisitCounter();
+
+//Launch pop up modal
 function openSignUpBox() {
-
   createPopUp();
-
   document.getElementById('modal-shadow').style.display = "block";
-
 }
 
 
 // Construct SignUpBox
-
 
 function createPopUp() {
 
@@ -45,31 +45,19 @@ function createPopUp() {
   form.appendChild(button);
 }
 
-// Validating Empty Field
-function check_empty() {
-  if (document.getElementById('email').value == "") {
-    alert("Please enter email");
+
+//Count page visits. Launch form after 5 visits
+
+function VisitCounter() {
+
+  var visits = GetCookie('counter');
+
+  if (!visits) {
+    visits = 1;
+  } else if (parseInt(visits) === 5) {
+    openSignUpBox();
   } else {
-    document.getElementById('form').submit();
-    alert("Form Submitted Successfully...");
+    visits = parseInt(visits) + 1;
   }
 }
 
-
-/* Invoke script after multiple pages visited
-
-In order to complete this I was going to add a cookie that checked the number of visits/pages.
-
-It would look similar to this:
-
-if (document.cookie.indexOf('visited=true') >= 5)
-   {
-      var thirtyDays = 1000*60*60*24*30;
-      var expires = new Date((new Date()).valueOf() + thirtyDays);
-      document.cookie = "visited=true;expires=" + expires.toUTCString();
-   }
-
-});
-
-
-*/

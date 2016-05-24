@@ -1,15 +1,13 @@
 
+setTimeout(openSignUpBox, 3000);
 
 // Display signup box after initial pause
-function openSignUpBox(){
-  setTimeout(
-    function() {
-      document.getElementById('signUpBox').style.display = "block";
-    }, 5000);
+function openSignUpBox() {
+  document.getElementById('modal-shadow').style.display = "block";
 }
 
-// Begin signup box timer after page click
-document.getElementById('body').onclick = openSignUpBox();
+
+// Construct SignUpBox
 
 // Validating Empty Field
 function check_empty() {
